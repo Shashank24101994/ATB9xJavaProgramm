@@ -1,6 +1,6 @@
 package oct.ex_03102024;
 
-public class Lab002_Task2
+public class Lab002
 {
     public static void main(String[] args) {
         System.out.println("10*1=10");

@@ -11,5 +11,5 @@ public class Lab006
         boolean shashank123 =false;
         boolean _shashank=false;
         System.out.println(_shashank);
-    }
+           }
 }
