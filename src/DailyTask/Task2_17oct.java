@@ -12,7 +12,10 @@ public class Task2_17oct
         int side2= sc.nextInt();
         System.out.println("enter third side\n");
         int side3= sc.nextInt();
-        if(side1==side2&&side2==side3 &&side3==side1)
+        if(side1<=0 ||side2<=0 ||side3<=0)
+        {
+            System.out.println("enter right side data");
+        } else if ((side1==side2&&side2==side3 &&side3==side1))
         {
             System.out.println("triangle is eqilateral");
         } else if (side1==side2||side2==side3||side3==side1)
