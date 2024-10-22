@@ -1,5 +1,6 @@
 package oct.ex_18102024;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Lab033
@@ -13,6 +14,7 @@ public class Lab033
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the browser name");
         String browser = sc.next();
+        browser=browser.toLowerCase();
         switch (browser)
         {
             case "chrome" :
