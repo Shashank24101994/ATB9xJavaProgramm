@@ -21,20 +21,30 @@ public class Lab031_hackerrankquestion
         if(num>=90 && num<=100)
         {
             System.out.println('A');
-        } else if (num>=80&&num<=89)
+        }
+        else if (num>=80&&num<=89)
         {
             System.out.println('B');
-        } else if (num>=70&&num<=79)
+        }
+        else if (num>=70&&num<=79)
         {
             System.out.println('C');
-        } else if (num>=60&&num<=69)
+        }
+        else if (num>=60&&num<=69)
         {
             System.out.println('D');
 
-        } else if (num>0&&num<59)
-        {
-            System.out.println('F');
         }
-        sc.close();
+        else if (num<=0 || num>=100)
+        {
+            System.out.println("please enter right data");
+        }
+        else
+        {
+            System.out.println("Grade F");
+        }
+
+        }
+
     }
-}
+
